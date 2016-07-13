@@ -1,0 +1,28 @@
+.nav {
+  background-image: linear-gradient(to top, $ui-grey, #ffffff);
+  border-top: solid 1px #e4e4e4;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: $nav-height;
+
+  z-index: 5;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 5px 10px;
+
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.nav-item-link {
+  display: block;
+  color: $blue;
+
+  &.active { color: $pink; }
+}
